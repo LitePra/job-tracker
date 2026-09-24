@@ -1,14 +1,14 @@
 # Retest Execution
 ## Retest Summary
-|ID    |Test Case|Bug    | Retest Result | Actual Result|
-|------|---------|-------|---------------|--------------|
-|RT-001|TC-004.1: `POST /jobs` empty `title` |BUG-001|**PASS**       |422 returned  |
-|RT-002|TC-004.2 |BUG-002|**PASS**       |422 returned  |
-|RT-003|TC-005.1 |BUG-003|**PASS**       |422 returned  |
-|RT-004|TC-005.2 |BUG-004|**PASS**       |422 returned  |
-|RT-005|TC-006.4 |BUG-005|**PASS**       |422 returned  |
-|RT-006|TC-007   |BUG-006|**PASS**       |422 returned  |
-|RT-007|TC-008   |BUG-007|**PASS**       |422 returned  |
+|ID    |Test Case                                    |Bug    | Retest Result | Actual Result|
+|------|---------------------------------------------|-------|---------------|--------------|
+|RT-001|TC-004.1: `POST /jobs` empty `title`         |BUG-001|**PASS**       |422 returned  |
+|RT-002|TC-004.2 `POST /jobs` empty `stack`          |BUG-002|**PASS**       |422 returned  |
+|RT-003|TC-005.1 `POST /jobs` whitespace-only `title`|BUG-003|**PASS**       |422 returned  |
+|RT-004|TC-005.2 `POST /jobs` whitespace-only `stack`|BUG-004|**PASS**       |422 returned  |
+|RT-005|TC-006.4 `POST /jobs` invalid `apply` type   |BUG-005|**PASS**       |422 returned  |
+|RT-006|TC-007 `POST /jobs` unknown field            |BUG-006|**PASS**       |422 returned  |
+|RT-007|TC-008 `POST /jobs` multiple unknown fields  |BUG-007|**PASS**       |422 returned  |
 # Details
 ## `RT-001` - `BUG-001`
 **Related Test Case:** TC-004.1

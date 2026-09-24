@@ -169,7 +169,7 @@
 |-------------------------|---------------------------------------------------------------------------------------|---------------|
 |Invalid `title` type     |{"title": 54, "stack":"Java", "experience":2}                                          |422            | 
 |Invalid `stack` type     |{"title": "Java Backend Developer", "stack": true, "experience":2}                     |422            |
-|Invalid `experience` type|{"title": "Java Backend Developer", "stack": "Java", "experience": "five years"        |422            |
+|Invalid `experience` type|{"title": "Java Backend Developer", "stack": "Java", "experience": "five years"}        |422            |
 |Invalid `apply` type     |{"title": "Java Backend Developer", "stack": "Java", "experience": 2, "apply": "Soon"} |422            |
 
 ## Steps
