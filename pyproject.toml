@@ -10,9 +10,13 @@ requires-python = ">=3.14"
 dependencies = [
     "asyncpg>=0.31.0",
     "fastapi>=0.141.1",
+    "psycopg>=3.3.5",
+    "psycopg2-binary",
     "pydantic>=2.13.5",
+    "pytest",
     "python-multipart>=0.0.32",
     "sqlalchemy>=2.0.52",
+    "typing-extensions>=4.16.0",
     "uvicorn>=0.52.4",
 ]
 
