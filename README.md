@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# job-tracker
-=======
 # Job Tracker API
 
 A small REST API for managing job application records.
@@ -217,4 +214,3 @@ The project is considered complete as a QA practice project.
 The API was tested through the main CRUD operations, defects were documented and fixed, fixes were retested, and regression testing was performed.
 
 One known defect remains open: **BUG-011**, related to invalid existing database records and response validation in `GET /jobs`.
->>>>>>> d5cfd74 (Add final QA documentation and testing)
